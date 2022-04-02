@@ -33,3 +33,19 @@ Informação de alteração
 
 ## GitFlow
 Fluxo do Git
+
+### Branchs
+- ramificações de código/ versões paralelas
+- main/master
+- develop
+- DOD (definition of Done) critérios de aceite
+
+- git checkout -b dev (cria uma branch)
+- git checkout master (muda de branch)
+
+- versionamento 0.1.10
+
+
+
+### Merge
+- mescla de branchs
