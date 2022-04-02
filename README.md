@@ -40,3 +40,18 @@ Ramificações do código/ versões paralelas
 - develop (fase de testes)
 - DOD (Definition of Done = critérios de aceite)
 - versionamento 0.1.10
+
+### Merge
+- mescla de branchs
+- git merge main
+- precisa resolver conflitos manualmente
+
+### Pull Requests
+- mescla de branchs no repositório
+- permite code review (outros desenvolvedores visualizam)
+- repositório resolve automaticamente
+
+### Configurando o GitFlow
+- git flow init
+- git flow feature start nomequequiser (dado o nome, começa a configurar)
+- git flow feature finish nomequequiser (depois de tudo configurado)
