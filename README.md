@@ -21,6 +21,7 @@ Mac (brew): brew install git
 ## Criar conta no GitHub
 
 ## Clonar o projeto
+git clone https://github.com/PineBR/learning.git
 
 ## Commits
 Informação de alteração
