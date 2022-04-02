@@ -33,3 +33,10 @@ Informação de alteração
 
 ## GitFlow
 Fluxo do Git
+
+### Branchs
+Ramificações do código/ versões paralelas
+- main/master (quando se torna público)
+- develop (fase de testes)
+- DOD (Definition of Done = critérios de aceite)
+- versionamento 0.1.10
