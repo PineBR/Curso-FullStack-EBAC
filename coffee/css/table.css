@@ -1,0 +1,52 @@
+/* Configurações da tabela */
+table {
+	background: #ffffff;
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+
+/* Definido a espessura das bordas */
+table, th, td{
+	border: 2px solid gray;
+}
+
+table th{
+	background: #190b01;
+	color: white;
+}
+
+/* Itens visitados */
+table tbody tr:hover {
+	background-color: rgba(255, 121, 0, .30);
+}
+
+/* Configurando texto na tabela */
+table th,
+table td {
+	padding: 1.3rem;
+	font-size: 1.6rem;
+	text-align: center;
+	vertical-align: middle;
+	width: 15px;
+}
+
+.pais{
+	font-weight: bold;
+}
+
+.brazil{
+	background-color: yellow;
+	color: darkgreen;
+	font-weight: bold;
+}
+
+/* Espaçamento ao redor da tabela */
+.table-container {
+	padding: 2rem 1rem;
+}
+
+/* Texto em negrito */
+.table-container tfoot td {
+	font-weight: bold;
+}

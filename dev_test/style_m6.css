@@ -1,0 +1,165 @@
+
+* {
+  box-sizing: border-box;
+}
+
+/* Definindo o estilo do cabeçalho principal */
+header {
+  background-color: #2f4f4f;
+  padding: 10px;
+  text-align: Center;
+  font-size: 25px;
+  color: white;
+  border: 1.5px solid #2f4f4f;
+  height: 120px;
+}
+
+/* Configurando as fontes do cabeçalho e texto*/
+h2{
+	font-family: "lucida console", monospace;
+  	font-weight: bold;
+  	color: white;
+  	font-size: 40px;
+  	line-height: 0;
+}
+h3{
+	font-family: "lucida console", monospace;
+  	font-weight: bold;
+  	color: white;
+  	font-size: 20px;
+  	line-height: 0;
+}
+
+h4{
+    font-family: "lucida console", monospace;
+    font-weight: bold;
+    color: #2f4f4f;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 80px;
+}
+h5{
+  font-family: "lucida console", monospace;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  margin-top: -60px;
+  text-align: center;
+}
+
+/* Configurando a fonte da frase do formulario */
+h1{
+  font-family: "lucida console", monospace;
+  font-weight: bold;
+  color: #2f4f4f;
+  font-size: 20px;
+}
+
+/* Configurando área de links para navegação */
+nav {
+  float: left;
+  width: 20%;  
+  background-color: #b0c4de;
+  padding: 30px;
+  height: 710px;
+  border-left: 1.5px solid #2f4f4f;
+  border-right: 1.5px solid #2f4f4f;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 17px;
+  text-align: left;
+  font-family: "lucida console", monospace;
+  color: #2f4f4f;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+ul li{
+  border-bottom: 1.5px solid #2f4f4f;
+  padding: .5rem;
+}
+.navegacao a{
+  color: #2f4f4f;
+  font-style: italic;
+  text-decoration: none;
+}
+
+/* Configurando a area do formulario*/
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: #ffffff;
+  font-family: "lucida console", monospace;
+  font-weight: bold;
+  color: #2f4f4f;
+}
+
+/* Configurando os campos do formulario*/
+form div{
+  border-bottom: 1px solid #b0c4de;
+}
+
+label{
+	display:  block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+[type="text"], [type="email"], textarea{
+	display: block;
+	width: 80%;
+	line-height: 25px;
+	font-family: "lucida console", monospace;
+	font-size: 16px;
+  border: 2px solid gray;
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+
+[type="submit"]{
+	margin-top: 20px;
+	background-color: #5f9ea0;
+	color: white;
+	font-size: 16px;
+	height: 35px;
+	width: 10%;
+  border: 2px solid #2f4f4f;
+}
+
+select{
+	height: 30px;
+	width: 12%;
+	font-family: "lucida console", monospace;
+	font-size: 13px;
+}
+
+/* Configurando o rodape */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Definindo o estilo do rodape */
+footer {
+  background-color: #2f4f4f;
+  text-align: center;
+  font-size: 14px;
+  height: 35px;
+  color: white;
+  font-family: "lucida console", monospace;
+  font-style: italic;
+  border: 1.5px solid #2f4f4f;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}

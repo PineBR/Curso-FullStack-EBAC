@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>MOD08 - Renan Pinheiro</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- RESET -->
+		<link rel="stylesheet" type="text/css" href="./css/reset.css">
+		
+		<!-- GOOGLE FONTS -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Limelight&family=Roboto&display=swap" rel="stylesheet">
+		
+		<!-- Estilos Personalizados -->
+		<link rel="stylesheet" type="text/css" href="./css/layout01.css">
+		<link rel="stylesheet" type="text/css" href="./css/layout02.css">
+	</head>
+	<body>
+
+		<header>
+			<img src="./imagens/marca.png" alt="imagem" style = "width:30%;">
+			<h2>Fresh & Hot</h2>
+		</header>
+
+		<section>
+
+			<nav>
+				<h3>NAVEGAÇÃO</h3><br>
+				<ul class="navegacao">
+					<li><a href="homepage.html">Consumo mundial</a></li>
+					<li><a href="nos.html">Quem somos</a></li>
+					<li><a href="bcafe.html">Benefícios do Café</a></li>
+				</ul>
+				<br><br><br><br>
+				<div id="grafico-01">
+        			<img src="./imagens/foto3.bmp" alt="café">
+    			</div>
+			</nav>
+
+			<article>
+
+				<h3>Faça seu pedido de forma rápida e prática aqui!</h3><br>
+				
+				<form method="post">
+
+					<div>
+						<label for="nome">Nome Completo</label><br>
+						<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+					</div>
+
+					<div>
+						<label for="endereco">Endereço para entrega</label><br>
+						<input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço">
+					</div>
+
+					<div>
+						<p>
+							<label>Escolha o seu café especial</label>
+							<input type="radio" name="cafe" value="Americano"> Americano
+							<input type="radio" name="cafe" value="Cappuccino"> Cappuccino
+							<input type="radio" name="cafe" value="Mocha"> Mocha
+							<input type="radio" name="cafe" value="Macchiato"> Macchiato
+							<input type="radio" name="cafe" value="Expresso"> Expresso
+							<input type="radio" name="cafe" value="Dessert"> Dessert
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label>Qual o tamanho da sua vontade?</label>
+							<input type="radio" name="copo" value="100ml - R$ 10,00"> 100ml - R$ 10,00
+							<input type="radio" name="copo" value="130ml - R$ 12,00"> 130ml - R$ 12,00
+							<input type="radio" name="copo" value="200ml - R$ 15,00"> 200ml - R$ 15,00
+							<input type="radio" name="copo" value="300ml - R$ 20,00"> 300ml - R$ 20,00
+						</p>
+					</div>
+
+					<div>
+						<label for="mensagem">Alguma observação?</label><br>
+						<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+					</div>
+
+					<div>
+						<label>Qual a forma de pagamento?</label>
+						<select>
+							<option value="Dinheiro" selected>Dinheiro</option>
+							<option value="Pix">Pix</option>
+							<option value="Cartão de Crédito">Cartão de crédito</option>
+						</select>
+					</div>
+
+					<div>
+						<input type="submit" value="Finalizar Pedido">
+					</div>
+
+				</form>
+
+			</article>
+
+		</section>
+
+		<footer>
+			<p>Desenvolvido por Renan Pinheiro</p>
+		</footer>
+		
+	</body>
+</html>

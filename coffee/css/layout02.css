@@ -1,0 +1,208 @@
+/* Importando CSS de Tabelas */
+@import url('table.css');
+
+/* Configurando o texto do cabeçalho*/
+header h2 {
+	font-size: 3rem;
+	font-family: 'Brush Seript M7', cursive;
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* Configurando o texto do "article"*/
+article h3{
+	font-size: 2rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+article h5{
+	font-size: 6rem;
+	font-family: 'cooper black', cursive;
+	font-weight: bold;
+	color: white;
+	margin-top: -70px;
+	text-align: center;
+}
+
+article h4{
+	font-size: 1.8rem;
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	margin-top: 40px;
+}
+
+/* Configurando os itens de navegação */
+a {
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/* Configurando o título navegação*/
+nav > h3{
+	font-size: 2rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	color: #190b01;
+}
+
+/*Configurando os links visitados*/
+h2:hover {
+	color: yellow;
+}
+
+/* Tipografia */
+html {
+	font-family: sans-serif;
+}
+
+/*ul {
+	padding-left: .5rem;
+	margin-left: .5rem;	
+}*/
+
+li {
+	letter-spacing: 0.4rem;
+	line-height: 2.5;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+/* Cores */
+/* Inserindo a imagem de fundo no corpo da página*/
+body {
+	background: url('../imagens/continua.png') center top repeat #f0e68c;
+	background-size: 12%;
+
+}
+
+/* Cor da "section" com opacidade de 87%*/
+section {
+	background: rgba(255, 121, 0, 0.85);
+}
+
+header,
+footer {
+	background-color: #190b01;
+}
+
+/* Texto do rodapé*/
+footer p {
+	color: rgb(255, 255, 255);
+	font-style: italic;
+	font-weight: normal;
+	font-size: 1.2rem;
+}
+
+/* Cor da caixa de Navegação*/
+.navegacao {
+	background-color: #190b01;
+	padding: 2rem;
+	width: 120%;
+}
+
+/*Texto da caixa de navegação*/
+.navegacao li a {
+	color: white;
+	font-family: 'Brush Seript M7', cursive;
+	font-size: 1.8rem;
+	text-align: center;
+}
+/* Link de navegação visitado*/
+.navegacao li a:hover {
+	background-color: rgba(255, 121, 0, .90);
+	color: #190b01;
+	font-family: 'Brush Seript M7', cursive;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+/* Configurando os campos do formulario*/
+form div{
+  border-bottom: 1px solid #190b01;
+  width: 100%;
+}
+
+label{
+	display:  block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+[type="text"], textarea{
+	display: block;
+	width: 80%;
+	line-height: 25px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	border: 2px solid #190b01;
+	margin-top: -15px;
+	margin-bottom: 15px;
+}
+
+[type="submit"]{
+	margin-top: 20px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #190b01;
+	color: white;
+	font-size: 18px;
+	height: 35px;
+	width: 20%;
+	border: 2px solid #190b01;
+}
+
+select{
+	height: 30px;
+	width: 20%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+/*Configurando layout fluido*/
+#grafico-02 {
+    background: transparent;
+    border-style: solid;
+    border-width: 30px 60px 30px 0;
+    border-color: transparent #190b01 transparent transparent;
+    width: 40px;
+    margin-top: 30px;
+}
+
+article h6{
+	text-align: center;
+	font-size: 45px;
+	margin-top: -50px;
+}
+
+/*Convertendo o formato da foto*/
+#grafico-01 {
+    background-color: none;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#grafico-01 img {
+    width: 100%;
+}
+
+#grafico-03 {
+    background: transparent;
+    border-style: solid;
+    border-width: 30px 30px 0px 30px;
+    border-color: #190b01 transparent transparent transparent;
+    width: 40px;
+    margin-top: 30px;
+}
+
+div h3{
+	margin-top: -30px;
+	margin-left: 80px;
+}

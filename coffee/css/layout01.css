@@ -1,0 +1,60 @@
+/*  Arquivo CSS geral com estilos dos elementos de todas páginas */
+
+/* Deixando os elementos dimensionados de maneira mais intuitiva */
+* {
+  box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%;
+}
+
+/* Configurando o cabeçalho */
+header {
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+/* Configurando o quadro de navegação*/
+nav {
+  float: left;
+  width: 25%;
+  padding: 30px;
+  margin-top: 10px;
+}
+
+/* Configura o conteúdo independente e autocontido*/
+article {
+  float: right;
+  padding: 15px;
+  width: 70%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*Controlando as margens e preenchimento*/
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+  height: 48px;
+}
+
+/* Configurando a posição do rodapé*/
+footer {
+  padding: 5px;
+  text-align: center;
+}
+
+/* Criando um layout flexível para diferentes dispositivos*/
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<!-- Atribuindo o link para o arquivo .css -->
+	<head>
+		<title>Fomulário Módulo 06</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./style_m6.css">	
+	</head>
+	<body>
+		<!-- Cabeçalho Principal -->
+		<header>
+			<h2>DESENVOLVEDOR FULL STACK</h2>
+			<h3>Escola Britânica de Artes Criativas & Tecnologia</h3>
+		</header>
+
+		<section>
+			<!-- Inserindo os links de acesso -->
+			<nav>
+				<img src="./imagens/logo.png" alt="logo" style = "width:200px;height:200px;">
+				<ul class="navegacao">
+					<li><a href="01-layouts.html">Home</a></li>
+					<li><a href="#contato">Formulário</a></li>
+				</ul>
+			</nav>
+
+			<article>
+
+				<h1>DEVELOPER FORM - EBAC</h1>
+				<p>Preencha os campos abaixo.</p>
+
+				<form method="post">
+
+					<div>
+						<label for="nome">Nome Completo:</label><br>
+						<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+					</div>
+
+					<div>
+						<label for="email">E-mail:</label><br>
+						<input type="email" name="email" id="email" placeholder="Digite seu email">
+					</div>
+
+					<div>
+						<label for="mensagem">Mensagem:</label><br>
+						<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+					</div>
+
+					<div>
+						<p>
+							<label>Qual linguagem de programação você prefere?</label>
+							<input type="radio" name="linguagens" value="html"> HTML
+							<input type="radio" name="linguagens" value="css"> CSS
+							<input type="radio" name="linguagens" value="javascript"> JavaScript
+							<input type="radio" name="linguagens" value="python"> Python
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label>Quais linguagens de programação você domina?</label>
+							<input type="checkbox" name="linguagens" value="html"> HTML
+							<input type="checkbox" name="linguagens" value="css"> CSS
+							<input type="checkbox" name="linguagens" value="javascript"> JavaScript
+							<input type="checkbox" name="linguagens" value="python"> Python
+						</p>
+					</div>
+
+					<div>
+						<label>Em qual nível você se considera como desenvolvedor?</label>
+						<select>
+							<option value="Iniciante" selected>Iniciante</option>
+							<option value="Junior">Júnior</option>
+							<option value="Pleno">Pleno</option>
+							<option value="Senior">Sênior</option>
+						</select>
+					</div>
+
+					<div>
+						<input type="submit" >
+					</div>
+
+				</form>
+				
+			</article>
+
+		</section>
+
+		<footer>
+			<p>Desenvolvido por Renan Pinheiro</p>
+		</footer>
+		
+	</body>
+</html>
