@@ -45,7 +45,5 @@ Fluxo do Git
 
 - versionamento 0.1.10
 
-
-
 ### Merge
 - mescla de branchs
