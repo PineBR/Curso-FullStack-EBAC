@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>1 - Resolvendo as operações:</h2>
+
+<p id="a"></p>
+<p id="b"></p>
+<p id="c"></p>
+<p id="d"></p>
+<p id="e"></p>
+<p id="f"></p>
+<p id="g"></p>
+<p id="h"></p>
+<p id="i"></p>
+<p id="j"></p>
+<p id="l"></p>
+<p id="m"></p>
+<p id="n"></p>
+<p id="o"></p>
+<p id="p"></p>
+<p id="q"></p>
+<p id="r"></p>
+<p id="s"></p>
+<p id="t"></p>
+<p id="u"></p>
+<p id="v"></p>
+<p id="x"></p>
+<p id="z"></p>
+<p id="w"></p>
+<p id="y"></p>
+<p id="A"></p>
+<p id="B"></p>
+<p id="C"></p>
+<p id="D"></p>
+
+<script>
+  var X = 10;
+  X++;
+  var Z = X;
+  var Y = 10;
+  Y--;
+  var W = Y;
+  
+  document.getElementById("a").innerHTML= 10+15;
+  document.getElementById("b").innerHTML= "10"+2;
+  document.getElementById("c").innerHTML= "10"*2;
+  document.getElementById("d").innerHTML= "10"/3;
+  document.getElementById("e").innerHTML= "10"%2;
+  document.getElementById("f").innerHTML= 10+true;
+  document.getElementById("g").innerHTML= 10 == "10";
+  document.getElementById("h").innerHTML= 10 === "10";
+  document.getElementById("i").innerHTML= 10 < 11;
+  document.getElementById("j").innerHTML= 10 >12;
+  document.getElementById("l").innerHTML= 10 <= 10.1;
+  document.getElementById("m").innerHTML= 10 > 9.99;
+  document.getElementById("n").innerHTML= 10 != "dez";
+  document.getElementById("o").innerHTML= 10 + true;
+  document.getElementById("p").innerHTML= "dez"+true;
+  document.getElementById("q").innerHTML= 10+false;
+  document.getElementById("r").innerHTML= 10*false;
+  document.getElementById("s").innerHTML= true+true;
+  document.getElementById("t").innerHTML= 1&1;
+  document.getElementById("u").innerHTML= 1&0;
+  document.getElementById("v").innerHTML= 0&0;
+  document.getElementById("x").innerHTML= 0/1;
+  document.getElementById("z").innerHTML= 5+5==10;
+  document.getElementById("w").innerHTML= "5"+"5"==10;
+  document.getElementById("y").innerHTML= "5"*2>9;
+  document.getElementById("A").innerHTML= (10+10)*2;
+  document.getElementById("B").innerHTML= 10+10*2;
+  document.getElementById("C").innerHTML= Z;
+  document.getElementById("D").innerHTML= W;
+  
+</script>
+
+<h2>Respondendo de acordo com as variáveis:</h2>
+
+<p id="cor01"></p>
+<p id="cor02"></p>
+<p id="cor03"></p>
+<p id="cor04"></p>
+<script>
+  var branco = "preto";
+  var preto = "cinza";
+  var cinza = "branco";
+  var carro = "preto";
+  var cavalo = carro;
+  document.getElementById("cor01").innerHTML= "a) " + (branco =="branco");
+  document.getElementById("cor02").innerHTML= "b) " + (branco == cinza);
+  document.getElementById("cor03").innerHTML= "c) " + (carro == branco);
+  document.getElementById("cor04").innerHTML= "d) " + (cavalo == "preto"?"cinza":"marron");
+  
+ </script>
+
+<h2>e - Quantas prestações são necessárias para pagar o valor do carro com uma entrada de 3.000?</h2>
+
+<p id="resultado"></p>
+<script>
+	var valor = 30000;
+	var entrada = 3000;
+  	var prestacao = 750;
+	var Nprestacao = (valor - entrada)/prestacao;
+  
+  document.getElementById("resultado").innerHTML= "São necessárias " + Nprestacao + " prestações.";
+  
+</script>
+
+<h2>f - Somando as variáveis de cores é formada uma string de quantos caracteres?</h2>
+
+<p id="cores"></p>
+<script>
+	var branco = "preto";
+	var preto = "cinza";
+	var cinza = "branco";
+	var carro = "preto";
+  	var soma = (branco + preto + cinza + carro);
+  	var nun = soma.length;
+  
+  document.getElementById("cores").innerHTML= nun + " caracteres.";
+
+</script>
+
+</body>
+</html> 
