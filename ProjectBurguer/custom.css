@@ -11,6 +11,21 @@ img{
     border-radius: 30px;
 }
 
+/* Configurando imagem do carrossel*/
+.carousel-inner img {
+width: 100%;
+height: auto;
+border-radius: 0px;
+}
+
+/* Configurando o texto do carrossel */
+.carousel-caption h3{
+    font-family: 'roboto', serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-shadow: 0 0 10px black;
+}
+
 input,
 textarea {
     margin-bottom: 1rem;
@@ -55,4 +70,5 @@ h5{
 footer{
     font-size: 0.8rem;
     font-style: italic;
+    color: #339966;
 }

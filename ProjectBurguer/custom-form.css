@@ -1,0 +1,10 @@
+textarea.form-control {
+    width: 100% !important;
+}
+
+.modal-header h5{
+    font-family: robot,sans-serif;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    color: #339966;
+}

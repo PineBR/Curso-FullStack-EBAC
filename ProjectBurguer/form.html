@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./custom.css">
+    <link rel="stylesheet" href="./custom-form.css">
+    <title>Yummy Form</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Yummy Burguer</h1>
+                </div>
+                <div class="col">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link active" href="./YummyBurger.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./YummyBurger.html#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./YummyBurger.html#produtos">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./YummyBurger.html#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="cadastro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <h2>Cadastro</h2>
+                    <p>Faça seu cadastro para receber as melhores promoções de hamburgers</p>
+                </div>
+            </div>
+            <!-- 1º formulário -->
+            <form class="form">
+                <!-- Nome e email na mesma linha -->
+                <div class="row">
+                    <div class="col">
+                        <label for="nome" class="col-form-label col-form-label-sm">Nome completo</label>
+                        <input class="form-control" type="text" name="nome" placeholder="digite seu nome" required>
+                    </div>
+                    <div class="col">
+                        <label for="email" class="col-form-label col-form-label-sm">E-mail</label>
+                        <input class="form-control" type="text" name="email" placeholder="digite seu melhor email" required>
+                    </div>
+                </div>
+                <!-- Endereço (rua/número/bairro) na mesma linha -->
+                <div class="row">
+                    <div class="col">
+                            <label for="rua" class="col-form-label col-form-label-sm">Rua e número</label>
+                            <input type="text" id="rua" class="form-control" placeholder="digite a rua seguido do número" required>
+                    </div>
+                    <div class="col">
+                            <label for="endereco" class="col-form-label col-form-label-sm">Bairro</label>
+                            <input type="text" id="endereco" class="form-control" placeholder="digite o bairro" required>
+                    </div>
+                </div>
+                <!-- Complemente e contato na mesma linha -->
+                <div class="row">
+                    <div class="col">
+                        <label for="completo" class="col-form-label col-form-label-sm">Complemento ou ponto de referência</label>
+                        <input type="text" id="completo" class="form-control" placeholder="complemento do endereço">
+                    </div>
+                    <div class="col">
+                            <label for="phone" class="col-form-label col-form-label-sm">Contato</label>
+                            <input type="text" id="phone" class="form-control" placeholder="(xx)9xxxx-xxxx" required>
+                    </div>
+                </div>
+                <!-- Cidade/Estado/CEP na mesma linha -->
+                <div class="row">
+                    <div class="col">
+                        <label for="cidade" class="col-form-label col-form-label-sm">Cidade</label>
+                        <input type="text" name="cidade" id="cidade" class="form-control" placeholder="digite a cidade" required>
+                    </div>
+                    <div class="col">
+                        <label for="estado" class="col-form-label col-form-label-sm">Estado</label>
+                        <select name="estado" id="estado" class="form-control">
+                            <option value="">Selecione um estado</option>
+                            <option value="ac">AC</option>
+                            <option value="al">AL</option>
+                            <option value="ap">AP</option>
+                            <option value="am">AM</option>
+                            <option value="ba">BA</option>
+                            <option value="ce">CE</option>
+                            <option value="df">DF</option>
+                            <option value="es">ES</option>
+                            <option value="go">GO</option>
+                            <option value="ma">MA</option>
+                            <option value="mt">MT</option>
+                            <option value="ms">MS</option>
+                            <option value="mg">MG</option>
+                            <option value="pa">PA</option>
+                            <option value="pb">PB</option>
+                            <option value="pr">PR</option>
+                            <option value="pe">PE</option>
+                            <option value="pi">PI</option>
+                            <option value="rj">RJ</option>
+                            <option value="rn">RN</option>
+                            <option value="rs">RS</option>
+                            <option value="ro">RO</option>
+                            <option value="rr">RR</option>
+                            <option value="sc">SC</option>
+                            <option value="sp">SP</option>
+                            <option value="se">SE</option>
+                            <option value="to">TO</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label for="cep" class="col-form-label col-form-label-sm">CEP</label>
+                        <input type="text" name="cep" id="cep" class="form-control" placeholder="xxxxx-xxx" required>
+                    </div>
+                </div>
+                <!-- Caixa de texto para informação -->
+                <div class="row">
+                    <div class="col">
+                        <div class="input-group">
+                            <label for="info" class="col-form-label col-form-label-sm">Informações adicionais</label>
+                            <textarea class="form-control" name="informacoes" id="info" rows="5"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <!-- Caixa de seleção -->
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" name="promocionais" id="promocionais">
+                            <label for="promocionais" class="form-check-label col-form-label-sm">Aceito receber
+                                mensagens promocionais</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- Botão para submeter dados cadastrados -->
+                <button type="submit" class="btn btn-lg btn-success">Finalizar cadastro</button>
+            </form> <!-- Finalizado 1º formulário -->
+
+            <!-- Link para acessar 2º formulário -->
+            <p><a href="#cadastro" data-bs-toggle="modal" data-bs-target="#modal-1">Cadastre-se</a> para receber
+                desconto.</p>
+        </div>
+    </section>
+
+    <!-- Abrindo 2º formulário -->
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Quero cupom!</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <!-- Link para receber cupom  -->
+                <div class="modal-body">
+                    <h6>Preencha os campos para receber um cupom de desconto no seu burger!</h6>
+
+                    <form class="form-inline">
+                        <div class="row">
+                            <div class="form-group col-4">
+                                <input type="text" class="form-control form-control-sm mb-2" name="nome"
+                                    placeholder="nome" required>
+                            </div>
+                            <div class="form-group col-4">
+                                <input type="text" class="form-control form-control-sm mb-2" name="e-mail"
+                                    placeholder="e-mail" required>
+                            </div>
+                            <div class="form-group col-4">
+                                <button type="submit" class="btn btn-sm btn-success">receber cupom</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary mb-2" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div> <!-- Finaliza 2º formulário -->
+
+    <!-- Atributo para ativar o compilado do JavaScript  -->
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+<footer>
+    <center>
+        <p>&reg;Desenvolvido por Renan Pinheiro</p>
+    </center>
+</footer>
+
+</html>
